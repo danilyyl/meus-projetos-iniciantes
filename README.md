@@ -6,9 +6,6 @@ Aqui você encontrará pequenos projetos em Python, JavaScript, HTML, CSS, e tam
 ## 📁 Projetos incluídos:
 
 - Conversor de Moedas
-- Jogo: Triângulo das Armas (inspirado em Fire Emblem)
-- Calculadora Simples
-- Verificador de Números Pares e Ímpares
 - (outros projetos que eu for terminando)
 
 ## 💻 Tecnologias utilizadas

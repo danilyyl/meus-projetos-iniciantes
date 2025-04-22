@@ -1,0 +1,152 @@
+
+body{background-color: black;
+    color: white;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container{
+    max-width: 600px;
+    width: 90%;
+    margin: 50px auto;
+    border: 0px solid #652b5e;
+    background: rgba(25, 0, 50, 0.5);
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+
+#introducao{
+    background-image: url(imagen3.avif);
+    background-repeat: repeat-x;
+    font-family: 'Courier New', Courier, monospace ;
+    border-bottom: 2px solid #391d51;
+    text-align: center;
+    background-color: #471254;
+    margin: 0;
+    padding: 15px;
+    
+}
+
+#passo1{
+    border-bottom: 2px solid #1b081e;
+    border-top: 2px solid #1b081e; ;
+    text-align: center;
+    background-color: #1b081e;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#pergunta1{
+    border-bottom: 2px solid #1b081e;
+    border-top: 2px solid #1b081e;
+    padding: 10px;
+    text-align: center;
+    background-color: #1b081e;
+    border-radius: 7px;
+    margin: 15px 0
+    
+    
+         
+    
+}
+
+#pergunta2{
+    border-bottom: 2px solid #1b081e;
+    border-top: 2px solid #1b081e;
+    padding: 10px;
+    text-align: center;
+    background-color: #1b081e;
+    border-radius: 7px;
+    margin: 15px 0
+           
+    
+}
+
+#pergunta3{
+    border-bottom: 2px solid #1b081e;
+    border-top: 2px solid #1b081e;
+    padding: 10px;
+    text-align: center ;
+    background-color: #1b081e;
+    border-radius: 7px;
+    margin: 15px 0         
+}
+
+#pergunta4{
+    border-bottom: 2px solid #1b081e;
+    border-top: 2px solid #1b081e;
+    padding: 10px;
+    text-align: center;
+    background-color: #1b081e;
+    border-radius: 7px;
+    margin: 15px 0      
+    
+}
+
+#botaoenviar{
+    border-top: 2px solid  #1b081e;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 600px) {
+    #container {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    #botaoenviar button {
+        width: 100%;  
+    }
+}
+
+#botaoenviar button:hover {
+    background-color: #8a3a78;  
+    transform: scale(1.1);  
+}
+
+
+
+input:focus, textarea:focus, select:focus {
+    outline: none;  
+    border: 2px solid #652b5e;  
+    background-color: #f7e1f0;  
+    box-shadow: 0 0 8px rgba(100, 0, 120, 0.5);  
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;  
+}
+
+body.light-mode {
+    background-color: white;
+    color: white; 
+}
+
+#modeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #652b5e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#modeToggle:hover {
+    background-color: #8a3a78;
+}

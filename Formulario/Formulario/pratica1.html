@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilo1.css">
+</head>
+
+<body>
+    <div id="container">
+    <div id="introducao">
+        <h1> Seja bem vindo(a)!</h1>
+        <p> Aqui é a Dani!, sei que voçê me conhece muito bem<br>
+        então vai acertar todas as perguntas deste formulario
+        </p>
+
+        <h4> Responda com carinho!</h4>
+    </div>
+    <br>
+    <br>
+
+    
+    <form method="get" action="pratica2.html">
+        <div id="passo1">
+            <b>Seu nome:</b>
+            <input type="text" name="nome">
+            <br>
+            <p>Que dia voçe está respondendo isso?</p>
+            <input type="date" name="data">
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div id="pergunta1" class="pergunta">
+            <p> Qual a minha idade?</p>
+            <input type="radio" id="idade" name="minhaidade" value="14">
+            14
+
+            <input type="radio" id="idade2" name="minhaidade" value="16">
+            16
+
+            <input type="radio" id="idade3" name="minhaidade" value="19">
+            19
+
+            <input type="radio" id="idade4" name="minhaidade" value="18">
+            18
+        </div>
+        <br>
+        <br>
+
+        <div id="pergunta2" class="pergunta">
+            <p> Qual o meu nome completo?</p>  
+            <input type="text" name="meunome"> 
+        </div>
+        <br><br>
+
+        <div id="pergunta3" class="pergunta">
+         <p"> O que eu costumo usar? (pode marcar mais que uma opção)</p>
+            <input type="checkbox" name="acessorios"> óculos
+            <input type="checkbox" name="acessorios"> salto alto
+            <input type="checkbox" name="acessorios"> argolas
+            <input type="checkbox" name="acessorios"> all star
+            <input type="checkbox" name="acessorios"> boné
+        </div>
+        <br><br>
+
+        <div id="pergunta4" class="pergunta">
+            <p> Quais são os meus generos favoritos de filmes?</p>
+            <input type="checkbox" name="generos"> romance
+            <input type="checkbox" name="generos"> terror
+            <input type="checkbox" name="generos"> suspense
+            <input type="checkbox" name="generos"> drama
+            <input type="checkbox" name="generos"> comédia
+        </div>
+        <br>   
+        <br>
+        <br>
+
+        
+        <div id="botaoenviar">
+            <input type="submit" value="Enviar formulario">
+        </div>
+
+       
+    </form>
+    <button id="modeToggle">Alternar Modo</button>
+</div>
+<script src="funcional.js"></script>
+</body>
+</html>

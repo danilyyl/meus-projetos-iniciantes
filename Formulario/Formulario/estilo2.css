@@ -1,0 +1,56 @@
+body {
+    background-color: #0d0d0d;
+    color: #e0d4f7;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#final {
+    font-size: 28px;
+    color: #c77dff;
+    text-shadow: 1px 1px 4px #52057b;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#opnion {
+    font-size: 20px;
+    color: #d7b5f9;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#opiniao {
+    width: 80%;
+    max-width: 500px;
+    height: 150px;
+    background-color: #1f0129;
+    border: 2px solid #6c1a7c;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(198, 107, 255, 0.3);
+    resize: none;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+#opiniao:focus {
+    box-shadow: 0 0 15px rgba(220, 100, 255, 0.6);
+}
+
+h6 {
+    margin-top: 40px;
+    color: #b574d5;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px #32004d;
+}

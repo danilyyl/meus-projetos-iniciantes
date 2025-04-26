@@ -1,0 +1,108 @@
+
+body {
+  margin: 0;
+  padding: 0 10px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #fdf6e3, #f7d794);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  max-width: 400px;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  background-color: #fff5cc;
+}
+  /* Content div for text and button */
+  .content {
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: #fff5cc;
+  }
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+.caixa-conversor{
+  
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 300px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #fff3b0;
+}
+
+.caixa-conversor input[type="number"]:focus{
+  border: 2px solid #bfa24c;
+  outline: none;
+}
+
+.caixa-conversor button{
+  padding: 10px 20px;
+  background-color: #d4af37;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.caixa-conversor button:hover {
+  background-color: #a88c30;
+}
+
+.caixa-conversor select {
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 16px;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  .content {
+    padding: 15px 20px;
+  }
+
+  .caixa-conversor {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .caixa-conversor button {
+    width: 100%;
+  }
+
+  .caixa-conversor select {
+    font-size: 14px;
+  }
+}

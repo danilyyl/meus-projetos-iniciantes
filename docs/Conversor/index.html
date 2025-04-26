@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="content">
+        <h1>Conversor de Moedas</h1>
+        <p>Converta valores das principais moedas para o Real Brasileiro (R$)</p>
+
+        <div class="caixa-conversor">
+          <select id="moeda">
+            <option value="dolar">Dólar (USD)</option>
+            <option value="euro">Euro (EUR)</option>
+            <option value="iene">Iene (JPY)</option>
+            <option value="libra">Libra (GBP)</option>
+          </select>
+          <br> <br>
+          <input type="number" id="valor" placeholder="Digite um valor">
+          <br> <br>
+          <button onclick="converter()">Converter</button>
+          <p id="resultado">Aguardando conversão...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Conversor de Moedas | Feito por Danielly💛</p>
+  </footer>
+
+  <script src="funcional.js"></script>
+</body>
+</html>
